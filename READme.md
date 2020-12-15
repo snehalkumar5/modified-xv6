@@ -1,6 +1,5 @@
-## ASSIGNMENT - 5
-### SNEHAL KUMAR
-### 2019101003
+## Modifications to original implementation of xv6 
+
 ### waitx (proc.c)
 The waitx system call added to proc.c. It returns value same as that of wait syscall. Calculates the wtime (endtime-creationtime-runtime) and runtime of the process. 
 Note: time command is used to call waitx with arguments *wtime,*rtime.
